@@ -3,9 +3,8 @@ require([
    'jquery',
    'underscore',
    'backbone',
-   'site/js/App',
-   'typhonjs-core-backbone-localstorage'  // Note: Backbone localStorage is bootstrapped here, but not assigned to
-], function ($, _, Backbone, App)         // a parameter in the function.
+   'site/js/App'
+], function ($, _, Backbone, App)
 {
    'use strict';
 

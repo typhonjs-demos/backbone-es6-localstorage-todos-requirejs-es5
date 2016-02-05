@@ -7,8 +7,9 @@
  */
 define([
    'backbone',
-   'site/js/models/Item'
-], function(Backbone, Item)
+   'site/js/models/Item',
+   'typhonjs-core-backbone-localstorage'   // Note: Backbone localStorage is bootstrapped here, but not assigned to
+], function(Backbone, Item)                // a parameter in the function.
 {
    'use strict';
 
