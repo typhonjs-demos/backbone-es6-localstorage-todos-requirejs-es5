@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="description" content="Backbone-ES6 RequireJS / ES5 Todos -- A canonical TODOs demo for `backbone-es6` & `typhonjs-core-backbone-localstorage` using the AMD ES5 bundles and RequireJS.">
+   <meta name="viewport" content="width=device-width, initial-scale=0.75">
+   <title>Backbone-ES6 RequireJS / ES5 Todos</title>
+
+   <!-- Icons for web apps created by http://realfavicongenerator.net/ -->
+
+   <!-- Add to homescreen for Chrome on Android -->
+   <meta name="mobile-web-app-capable" content="yes">
+   <link rel="icon" type="image/png" href="site/images/icons/android-chrome-192x192.png" sizes="192x192" data-cdn="true">
+   <link rel="manifest" href="site/images/icons/manifest.json">
+
+   <!-- Add to homescreen for Safari on iOS -->
+   <meta name="apple-mobile-web-app-capable" content="yes">
+   <meta name="apple-mobile-web-app-status-bar-style" content="black">
+   <meta name="apple-mobile-web-app-title" content="Todos">
+   <link rel="apple-touch-icon" sizes="57x57" href="site/images/icons/apple-touch-icon-57x57.png">
+   <link rel="apple-touch-icon" sizes="60x60" href="site/images/icons/apple-touch-icon-60x60.png">
+   <link rel="apple-touch-icon" sizes="72x72" href="site/images/icons/apple-touch-icon-72x72.png">
+   <link rel="apple-touch-icon" sizes="76x76" href="site/images/icons/apple-touch-icon-76x76.png">
+   <link rel="apple-touch-icon" sizes="114x114" href="site/images/icons/apple-touch-icon-114x114.png">
+   <link rel="apple-touch-icon" sizes="120x120" href="site/images/icons/apple-touch-icon-120x120.png">
+   <link rel="apple-touch-icon" sizes="144x144" href="site/images/icons/apple-touch-icon-144x144.png">
+   <link rel="apple-touch-icon" sizes="152x152" href="site/images/icons/apple-touch-icon-152x152.png">
+   <link rel="apple-touch-icon" sizes="180x180" href="site/images/icons/apple-touch-icon-180x180.png">
+   <link rel="mask-icon" href="site/images/icons/safari-pinned-tab.svg" color="#5bbad5">
+
+   <!-- Tile icon for Win 8/10 (144x144 + tile color) -->
+   <meta name="msapplication-TileColor" content="#2d89ef">
+   <meta name="msapplication-TileImage" content="site/images/icons/mstile-144x144.png">
+   <meta name="msapplication-config" content="site/images/icons/browserconfig.xml">
+   <meta name="theme-color" content="#ffffff">
+
+   <!-- Favicon icon -->
+   <link rel="shortcut icon" href="site/images/icons/favicon.ico" type="image/x-icon">
+   <link rel="icon" type="image/png" href="site/images/icons/favicon-16x16.png" sizes="16x16">
+   <link rel="icon" type="image/png" href="site/images/icons/favicon-32x32.png" sizes="32x32">
+   <link rel="icon" type="image/png" href="site/images/icons/favicon-194x194.png" sizes="194x194">
+   <link rel="icon" type="image/png" href="site/images/icons/favicon-96x96.png" sizes="96x96">
+
+   <!-- App stylesheet -->
+   <link href="site/css/todos.css" media="all" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<noscript>We apologize, but `backbone-es6-localstorage-todos-requirejs-es5` requires javascript.</noscript>
+
+<!-- Todo App Interface -->
+
+<div id="todoapp">
+   <div class="title">
+      <h1>Backbone-ES6 Localstorage Todos</h1>
+   </div>
+
+   <div class="content">
+   </div>
+</div>
+
+<div id="credits">
+   Powered by the AMD ES5 bundles from <a href="https://github.com/typhonjs/backbone-es6" target="_blank">backbone-es6</a> and <a href="https://github.com/typhonjs/typhonjs-core-backbone-localstorage" target="_blank">typhonjs-core-backbone-localstorage</a>.<br /><br />
+   This is a rhetorical demo showing <a href="http://requirejs.org/" target="_blank">RequireJS</a> usage and we recommend that you check out the ES6 & JSPM / SystemJS version: <a href="https://github.com/typhonjs-demos/backbone-es6-localstorage-todos" target="_blank">backbone-es6-localstorage-todos</a>.
+</div>
+
+<!-- Load and start the TODOS app; Note: `config.js` specified by data-main bootstraps the App loading `main.js`. -->
+<script data-main="config" src="lib/require.js" type="text/javascript"></script>
+
+</body>
+</html>
