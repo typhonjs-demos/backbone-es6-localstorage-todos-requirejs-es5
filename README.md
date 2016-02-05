@@ -5,3 +5,5 @@ Provides the canonical TODOS web app using [RequireJS](http://requirejs.org/) an
 This is a rhetorical demo showing how to consume the library in a RequireJS context. This is absolutely NOT the recommended way to consume `backbone-es6`, but gives an example for those converting from RequireJS usage to JSPM / SystemJS. Please see [backbone-es6-localstorage-todos](https://github.com/typhonjs-demos/backbone-es6-localstorage-todos) for the recommended way to work with backbone-es6 and JSPM / SystemJS.
 
 More info coming soon.
+
+Live demo here: http://js.demos.typhonrt.org/backbone-es6-localstorage-todos-requirejs-es5/
