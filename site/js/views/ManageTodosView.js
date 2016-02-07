@@ -27,7 +27,6 @@ define([
          'keypress #new-todo': 'createOnEnter',
          'click #clear-completed': 'clearCompleted',
          'click #toggle-all': 'toggleAllComplete',
-         'click .log-out': function() { eventbus.trigger('app:user:logout'); },
          'click ul#filters a': function(e) { eventbus.trigger('app:select:filter', $(e.target).attr('id')); }
       },
 
