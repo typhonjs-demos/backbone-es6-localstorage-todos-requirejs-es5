@@ -6,4 +6,4 @@ This is a rhetorical demo showing how to consume the library in a RequireJS cont
 
 More info coming soon.
 
-Live demo here: http://js.demos.typhonrt.org/backbone-es6-localstorage-todos-requirejs-es5/
+Live demo here: https://demos.typhonjs.io/typhonjs-demos/backbone-es6-localstorage-todos-requirejs-es5/
